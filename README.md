@@ -1,3 +1,16 @@
+<h1 align="center">Hi 👋, I'm Vitor</h1>
+
+<h3 align="center">A passionate software developer from Portugal and currently living in Luxembourg</h3>
+
+<p align="left">
+    <img src="https://konpa.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="20" height="20"/>
+    <img src="https://konpa.github.io/devicon/devicon.git/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="20" height="20"/> 
+    <img src="https://konpa.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="20" height="20"/> 
+    <img src="https://konpa.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="20" height="20"/>
+    <img src="https://konpa.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" alt="docker" width="20" height="20"/> 
+    <img src="https://konpa.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="20" height="20"/> 
+</p>
+
 ```php
 <?php
 
@@ -23,8 +36,6 @@ class About extends Me
             Laravel::class,
             VueJs::class,
             NuxtJs::class,
-            NativeScript::class,
-            TailwindCss::class,
             Docker::class,
         ];
     }
@@ -33,10 +44,13 @@ class About extends Me
     {
         return 24;
     }
-    
-    public function getFutureGoal()
-    {
-        return 'Contribute to open source.';
-    }
 }
 ```
+
+<p align="left"> 
+    <img src="https://komarev.com/ghpvc/?username=vitorarantes" alt="vitorarantes" />
+</p>
+
+<p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=vitorarantes&show_icons=true" alt="vitorarantes" />
+</p>
