@@ -3,12 +3,12 @@
 <h3 align="left">A passionate software developer from Portugal and currently living in Luxembourg.</h3>
 
 <p align="left">
-    <img src="https://konpa.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="60" />
-    <img src="https://konpa.github.io/devicon/devicon.git/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="60" /> 
-    <img src="https://konpa.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="60" /> 
-    <img src="https://konpa.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="60" />
-    <img src="https://konpa.github.io/devicon/devicon.git/icons/docker/docker-original-wordmark.svg" alt="docker" width="60" /> 
-    <img src="https://konpa.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" /> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg" alt="php" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg" alt="laravel" width="60" /> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="javascript" width="60" /> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-plain.svg" alt="vuejs" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" alt="docker" width="60" /> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" alt="mysql" width="60" /> 
 </p>
 
 ```php
@@ -17,17 +17,19 @@
 namespace VitorArantes;
 
 class About extends Me
-{
-    public function getCurrentWorkplace()
+{    
+    public function getTopSkills()
     {
         return [
-            'workplace' => [
-                'company' => 'eSST Luxembourg',
-                'position' => 'Full Stack Developer'         
-            ]
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            VueJs::class,
+            NuxtJs::class,
+            Docker::class,
         ];
     }
-    
+
     public function getAge()
     {
         return 24;
